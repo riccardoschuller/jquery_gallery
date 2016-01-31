@@ -8,6 +8,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="countdown/jquery.countdown.css">
+      <link rel="stylesheet" href="animate.changethewords.css">
     
  
     <!-- JavaScript -->
@@ -15,6 +16,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
 	<script type="text/javascript" src="countdown/jquery.countdown.js"></script>
 	<script src="./scripts/jquery.knob.js"></script>
+  <script type="text/javascript" src="scripts/jquery.changethewords.js"></script>
 	
 	
 
@@ -29,6 +31,7 @@
 		background: black;
 		color: white;
 		text-align: center;
+    margin-top: 185%;
 	}
 
 	#pushbutton {
@@ -39,6 +42,16 @@
 	.item img {
 		width: 100%;
 	}
+
+  .bold {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35%;
+  }
+
+  canvas {
+    margin-left: 40%;
+  }
 
 	</style>
 
@@ -135,13 +148,18 @@
 </div>
 
 
-		</div>
+		
 		<div class="col-lg-5">
 			
-			<div class="embed-responsive embed-responsive-16by9">
- 
+		<div id="changethewords" class="bold">Al Quasar
+  <span data-id="1">Linguaggi Web</span>
+  <span data-id="2">Fotografia</span>
+  <span data-id="3">Grafica</span>
+  <span data-id="4">Physical Computing</span>
+  <span data-id="5">Video</span>
+  <span data-id="6">Audio</span>
+  <span data-id="7">Programmazione</span>
 </div>
-
 		</div>
 		<div class="col-lg-2"><div id="hacker-btn" class="btn">Hacker</div></div>
 
@@ -150,7 +168,7 @@
 
 </div>	
 	
-	
+</div>	
 <script type="text/javascript">
 		//console.log('Not ready yet')
 	</script>

@@ -108,7 +108,13 @@ $(function(){
         $(".dial").knob();
     });
 
-
+$(function() {
+      $("#changethewords").changeWords({
+        time: 1500,
+        animate: "tada",
+        selector: "span"
+      });
+    });
 
 
 });
