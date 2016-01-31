@@ -103,4 +103,12 @@ $(function(){
 
 });
 
+
+    $(function() {
+        $(".dial").knob();
+    });
+
+
+
+
 });
